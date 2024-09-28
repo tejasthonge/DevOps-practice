@@ -99,3 +99,15 @@ find <name of file or cureent dir or which directs we want>
 #to find only folder or file use flage -type <d> for folder <f> for the files
 
 #to change the mode of lie which acces mode by using cmode command 
+
+
+#hostmane 
+
+hostname 
+hostname -i #to get the ip address
+
+#to check the server adrees or ip addreess on domain
+nslookup google.com
+
+#to check the active ports
+netstat
