@@ -1,0 +1,29 @@
+
+
+#ymal :
+	
+	-yet markup language then it was renamed as yaml ain`t markup languge
+	-its not a programing language it is data formate used to exchange the data
+
+	-it is similar to xml and json data types
+	-its a human readable languge thats represent the data
+	-it store infomation of some confargation
+	-not store the command only store the data inside it
+	-means its like the data serializtion
+	-its store documets :
+		-hows:
+			-convrting the objet ->flile known as serializtion 
+			-and file is nothing but streme of byte of some data 
+			-and byte is actual memory 
+
+	
+	#user:
+		
+		-used in docmetetion or like veriase thrid party packge in farmwok
+		-in logs, cashe
+	
+	#prototype
+		-strictly typed
+		-indetation is impotant
+		-casesensitive
+		-esly comvtable -json ot xml
