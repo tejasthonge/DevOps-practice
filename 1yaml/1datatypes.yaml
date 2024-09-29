@@ -1,0 +1,100 @@
+
+
+
+#Data type
+
+#String 
+#same variable name in not supported
+name: amar
+name1: "amr"
+name2: 'amar'
+
+#multiline String
+#    -indetation is important
+bio: |
+ im softweare Developer  
+ and i have Skils like
+ flutter,java, dart ,DevOps,python
+
+#write single line in multiple line
+massage: >
+ this is an single line but 
+ write line multiple line'
+
+#this above is same as 
+ms: this is single line write in sinle line 
+
+#number
+
+#int 
+number: 4213
+
+#float
+marks: 34.9
+
+#boolean
+isTrue: No #false ,n N this same
+isFalse: Yes #True ,y ,Y this same
+
+#null 
+version: null 
+version1: Null 
+version2: ~ 
+
+
+#array
+#list
+numbers: [1,2,3,4,5]
+#or 
+arr: 
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+
+
+
+#map
+#dictionary
+person:
+  name: amar
+  age: 25
+  city: banglore
+
+
+#object
+#dictionary
+person1: {name: amar, age: 25, city: banglore}
+
+#array of objects
+people:
+  - {name: amar, age: 25, city: barhsi}
+  - {name: bala, age: 30, city: mumbai}
+  - {name: ram, age: 28, city: pune}
+  
+
+#nested objects
+person2:
+  name: amar
+  age: 25
+  city: banglore
+  address:
+    street: 123 main st
+
+#dates
+date: 2022-12-31
+date1: "2022-12-31"
+date2: ~
+
+
+#Above automatically specified data types
+#we can also specify these data types
+
+a: !!int 32
+b: !!float 34.5
+c: !!str "hello world"
+d: !!bool true
+e: !!null Null
+f: !!timestamp 2022-12-31  #date and time
+ 
